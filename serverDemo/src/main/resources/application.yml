@@ -1,0 +1,7 @@
+# 修改demoServer的访问端口 默认为：8080 ，由于我本机存在8080的tomcat，故将其改掉
+server:
+  port: 7905
+# spring cloud 的服务名称，后续在注册中心eureka中需要用到:
+spring:
+  application:
+    name: demoServer
